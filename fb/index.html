@@ -4,15 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>FB</title>
     <link rel="stylesheet" href="fb.css">
 </head>
 <body>
     <div class="container">
         <div class="header">
             <div class="logo">
-                <a class=logo_text href="index.html">facebook</a>
-
+                <a class=logo_text href="https://facebook.com">facebook</a>
             </div>
             <div class="login">
                 <form action="">
@@ -22,19 +21,89 @@
                             <td>Password</td>
                         </tr>
                         <tr>
-                            <td><input type="text"></td>
+                            <td><input type="email"></td>
                             <td><input type="text"></td>
                             <td><input type="submit" value="Login"></td>
                         </tr>
                         <tr>
                             <td></td>
-                            <td>Forgot password?</td>
+                            <td><a href=index.html style="color: #a0bcf0; text-decoration: none;">Forgot account?</a></td>
                         </tr>
                     </table>
                 </form>
             </div>
-
+        </div>
+        <div class="footer">
+            <div class="image">
+                <img src="fb-home.png" width="100%" height="630px" alt="">                
+            </div>
+            <div class="signUp">
+                <table class="details">
+                    <tr>
+                        <td><h2 style="color: #0e2853; ">Create an account</h2></td>
+                    </tr>
+                    <tr>
+                        <td><a>Its quick and easy</a></td>
+                    </tr>
+                    <tr><td><h3></h3></td></tr>
+                    <tr>
+                        <td><input style="width: 150px; height: 30px;" type="text" placeholder="First name">
+                            <input style="width:150px; height: 30px;" type="text" placeholder="Last name">
+                        </td>
+                    </tr>
+                    <tr><td></td></tr>
+                    <tr>
+                        <td><input style="width:312px; height: 30px;" type="text" placeholder="Mobile number or email"></td>
+                    </tr>
+                    <tr><td></td></tr>
+                    <tr>
+                        <td><input style="width:312px; height: 30px;" type="text" placeholder="New password"></td>
+                    </tr>
+                    <tr>
+                        <td><a>Birthday</a></td>
+                    </tr>
+                    <tr><td><h1></h1></td></tr>
+                    <tr>
+                        <td>
+                            <select name="" id="Month">
+                            <option value="">Jan</option>
+                            <option value="">Feb</option>
+                            <option value="">Mar</option>
+                            </select>
+                            <select name="" id="Day">
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            </select>
+                            <select name="" id="Year">
+                            <option value="">1991</option>
+                            <option value="">1992</option>
+                            <option value="">1993</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a>Gender</a></td>
+                    </tr>
+                    <tr><td><h4></h4></td></tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="Gender" id="Male" value="Male">
+                            <label for="Male">Male</label>
+                            <input type="radio" name="Gender" id="Female" value="Female">
+                            <label for="Female">Female</label>
+                            <input type="radio" name="Gender" id="Custom" value="Custom">
+                            <label for="Custom">Custom</label>
+                        </td>                        
+                    </tr>
+                    <tr><td><h6></h6></td></tr>
+                    <tr><td><button style="width:150px; border-color:white ; border-radius:5px; height: 40px; background:green; color:white" >Sign Up</button></td></tr>
+                </table>
+            </div>            
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
