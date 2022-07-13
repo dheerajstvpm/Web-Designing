@@ -1,0 +1,42 @@
+button
+{
+    background-color: black;
+    color: aliceblue;
+}
+
+#para1
+{
+    color:brown;
+}
+#para2
+{
+    color:blueviolet;
+}
+.content
+{
+    color: cornflowerblue;
+}
+
+.outer-div
+{
+    width: 300px;
+    height: 300px;
+    background: #f284a3;
+    margin-left: 200px;
+    padding-left: 30px;
+    padding-top: 30px;
+    border: 2px solid;
+      border-top-color: currentcolor;
+      border-right-color: currentcolor;
+      border-bottom-color: currentcolor;
+      border-left-color: currentcolor;
+    border-color: #0d4091;
+}
+.inner-div
+{
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 100px;
+    background: #0d4091;
+}
