@@ -2,7 +2,7 @@
 {
     background: #3b5998;
     width: 100%;
-    height: 100px;
+    height: 90px;
 }
 body
 {
@@ -11,30 +11,54 @@ body
 }
 .login
 {
-    width:49%;
-    height: 100px;
+    width:50%;
+    height: 90px;
     float: left;
     color: white;
     font-size: small;
-    padding-left:1%;
 }
 .logo
 {
     color: aliceblue;
-    width: 40%;
-    height: 100px;
+    width: 50%;
+    height: 50px;
+    padding-top:40px;
     float: left;
-    padding-left:10%;
-    padding-top:4%;;
 }
 .logo_text
 {
+    
     color: white;
-    font-size: xx-large;
+    font-size:xx-large;
     font-weight: bold;
     text-decoration: none;
+    margin-left: 30%;
 }
 .login-controls
 {
-
+    margin-left: 20%;
+    margin-top: 3%;
+}
+.footer
+{   
+    background: aliceblue;
+    width: 100%;
+    height: 630px;
+}
+.image
+{
+    width: 60%;
+    height: 630px;
+    float: left;
+}
+.signUp
+{
+    background:#edf0f5;
+    width:40%;
+    height: 630px;
+    float: left;
+}
+.details
+{
+    margin-left: 10%;
 }
