@@ -1,24 +1,24 @@
-.calc{
-    width: 300px;
-    height: 550px;
-    background: burlywood;
+.calc {
+    width: 272px;
+    height: 364px;
+    background: #ecebe9;
     margin-left: 100px;
     border: solid 1px;
-}
+  }
 
-#screen {
-    width: 360px;
+  #screen {
+    width: 266px;
     height: 70px;
     pointer-events: none;
     border: solid 1px;
-}
+  }
 .btn {
     width: 65px;
     height: 58px;
     border: solid 1px;
 }
 .top-row {
-    width: 164px;
+    width: 134px;
     height: 58px;
     border: solid 1px;
-}
+  }
