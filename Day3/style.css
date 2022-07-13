@@ -1,7 +1,7 @@
 .calc {
     width: 272px;
     height: 364px;
-    background: #ecebe9;
+    background: #fff;
     margin-left: 100px;
     border: solid 1px;
   }
@@ -11,14 +11,17 @@
     height: 70px;
     pointer-events: none;
     border: solid 1px;
+    background:local;
   }
-.btn {
+  .btn {
     width: 65px;
     height: 58px;
     border: solid 1px;
-}
+    background: none;
+  }
 .top-row {
     width: 134px;
     height: 58px;
     border: solid 1px;
+    background:auto;
   }
