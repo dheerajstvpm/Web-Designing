@@ -1,0 +1,28 @@
+.calc{
+    width:400px;
+    height: 550px;
+    background: burlywood;
+    margin-left: 100px;
+    border: solid 1px;
+}
+
+#screen {
+    width: 360px;
+    height: 70px;
+    margin-left: 17px;
+    margin-top: 14px;
+    pointer-events: none;
+    border: solid 1px;
+}
+.btn {
+    margin: 17px;
+    width: 63px;
+    height: 58px;
+    border: solid 1px;
+}
+.top-row {
+    margin: 17px;
+    width: 164px;
+    height: 58px;
+    border: solid 1px;
+}
