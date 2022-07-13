@@ -33,9 +33,6 @@ function operationClick(val){
     console.log(temp)
     document.getElementById("screen").value="";
     flag=0;
-    //return{
-    //    temp : document.getElementById("screen").value+val
-    //}
 }
     
 
