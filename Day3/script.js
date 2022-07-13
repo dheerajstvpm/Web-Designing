@@ -1,5 +1,12 @@
 function buttonClick(val){
-    document.getElementById("screen").value=document.getElementById("screen").value+val;
+    if (flag==0){
+        document.getElementById("screen").value=document.getElementById("screen").value+val;
+    }
+    else{
+        document.getElementById("screen").value=val;
+        flag=0;
+    }
+    
 }
 function buttonClear(){
     document.getElementById("screen").value="";
@@ -7,54 +14,28 @@ function buttonClear(){
 function back(){
     document.getElementById("screen").value=document.getElementById("screen").value.slice(0,-1);
 }
-function equalClick(){
-    
-    if(flag==0){
-        var previousValue=document.getElementById("screen").value;
-    }
-    else if(flag==1){
-        var previousValue=previousValue+document.getElementById("screen").value;
-    }
-    else if(flag==2){
-        var previousValue=previousValue-document.getElementById("screen").value;
-    }
-    else if(flag==3){
-        var previousValue=previousValue*document.getElementById("screen").value;
-    }
-    else {
-        var previousValue=previousValue/document.getElementById("screen").value;
-    }
-    document.getElementById("screen").value=previousValue;
+
+var text;
+var temp="";
+var result;
+var flag;
+function equalClick(val){
+    text=temp+document.getElementById("screen").value;
+    console.log(text)
+    result=eval(text);
+    console.log(result)
+    document.getElementById("screen").value=result;
+    flag=1;
+    temp="";
 }
 function operationClick(val){
-    if(document.getElementById("screen").value=='+'){
-        var flag=1;
-    }
-    if(document.getElementById("screen").value=='-'){
-        var flag=2;
-    }
-    if(document.getElementById("screen").value=='*'){
-        var flag=3;
-    }
-    else{
-        var flag=4;
-    }
-
-    if(flag==0){
-        var previousValue=document.getElementById("screen").value;
-    }
-    else if(flag==1){
-        var previousValue=previousValue+document.getElementById("screen").value;
-    }
-    else if(flag==2){
-        var previousValue=previousValue-document.getElementById("screen").value;
-    }
-    else if(flag==3){
-        var previousValue=previousValue*document.getElementById("screen").value;
-    }
-    else{
-        var previousValue=previousValue/document.getElementById("screen").value;
-    }
-
+    temp=temp+document.getElementById("screen").value+val;
+    console.log(temp)
     document.getElementById("screen").value="";
+    flag=0;
+    //return{
+    //    temp : document.getElementById("screen").value+val
+    //}
 }
+    
+
