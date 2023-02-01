@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #screen{
+        width: 300px;
+        height: 300px;
+        border: 1px solid black;
+    }
+</style>
+<body>
+    <input type="text" id="inp">
+    <button onclick="display()">Click me</button>
+    <br>
+    <br>
+    <a href="" id="text"></a>
+    <br><br>
+    <div id="screen">
+
+    </div>
+    <br>
+    <button onclick="color('red')">Red</button>
+    <button onclick="color('green')">Green</button>
+    <button onclick="color('blue')">Blue</button>
+    <button onclick="color('yellow')">Yellow</button>
+    <button onclick="color('cyan')">Cyan</button>
+    <button onclick="color('magenta')">Magenta</button>
+    <script>
+        function color(col){
+            document.getElementById("screen").style.background=col;
+        }
+        function display(){
+            input=document.getElementById("inp").value
+            document.getElementById("text").innerHTML=input
+            color(input)
+
+            n=input
+            for(i=1;i<=n;i++){
+                for(j=1;j<=2*n;j++){
+                    if(j<=i|| j>=2*n+1-i){
+                        document.write("*")
+                    }
+                    else{
+                        document.write(i)
+                    }
+                }
+                document.write("<br>")
+            }
+        }
+
+    </script>
+</body>
+</html>

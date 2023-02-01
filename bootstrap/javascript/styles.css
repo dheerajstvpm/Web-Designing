@@ -1,0 +1,12 @@
+.main-body{
+    display: flex;
+    flex-direction: column;
+}
+#screen{
+    width: 205px;
+    height: 40px;
+}
+.btn{
+    width: 50px;
+    height: 50px;
+}

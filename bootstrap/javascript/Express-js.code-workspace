@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../../Express-js"
+		},
+		{
+			"path": "../../../Personal-Website"
+		},
+		{
+			"path": "../../fb"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "javascript"
+	}
+}
